@@ -19,3 +19,8 @@ int main (){
   cout<<"The result is: "<<setprecision(3)<<res;
   return 0;
 }
+
+// Output 
+// Enter the value of n upto which you want the series to be printed.
+// 5
+// The result is: 0.0417

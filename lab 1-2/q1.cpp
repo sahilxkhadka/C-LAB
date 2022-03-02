@@ -14,3 +14,9 @@ int main (){
       cout<<"You are not qualified."<<endl;
   return 0;
 }
+
+// Output 
+// Enter your weight, age and experience:
+// 35
+// 25
+// 5

@@ -30,3 +30,11 @@ int main (){
   num3.calcData(num1, num2);
   return 0;
 }
+
+// Output 
+// Enter the real and imaginary part:
+// 1 2
+// Enter the real and imaginary part:
+// 3 4
+// 1 + 2i + 3 + 4i = 4 + 6i
+// 1 + 2i - (3 + 4i) = -2 + (-2i)

@@ -28,3 +28,7 @@ int main (){
   e2.displayData();
   return 0;
 }
+
+// Output
+// a = 0 b = 0 c = 0
+// a = 1 b = 2 c = 3

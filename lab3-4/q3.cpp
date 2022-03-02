@@ -29,3 +29,15 @@ int main (){
     ebl[i].getData();
   return 0;
 }
+
+// Output 
+// Enter acc number:
+// 66
+// Enter acc holder name:
+// Sandesh
+// Enter the balance in your account:
+// 0.00
+
+// Account No.: 66
+// Account holder name: Sandesh
+// Balance: 0

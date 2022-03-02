@@ -44,3 +44,24 @@ int main (){
   displayData();
   return 0;
 }
+
+// Output 
+// Enter the id of your company:
+// 101
+// Enter the name of your company:
+// Sahil
+// Enter the id of the employee:
+// 1
+// Is he the head of the department?
+// 1
+// Enter the id of the employee:
+// 2
+// Enter the id of your company:
+// 102
+
+// The company id = 101
+// Company Name = Sahil
+// Employee Id = 1
+// Departmend Head Status = 1
+// Employee Id = 2
+// Departmend Head Status = 0

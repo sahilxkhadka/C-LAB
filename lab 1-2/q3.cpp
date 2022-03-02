@@ -20,3 +20,7 @@ int main (){
     cout<<"Out of range!!!";
   return 0;
 }
+
+// Output 
+// Enter the marks you obtained in c++ 69
+// You have obtained: D

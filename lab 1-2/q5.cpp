@@ -22,3 +22,10 @@ int main (){
   cout<<"The largest number in the array is: "<<fptr(arr, n);
   return 0;
 }
+
+// Output 
+// Enter the number of elements:
+// 4
+// Enter the desired number of elements inside the array:
+// 5 9 8 100
+// The largest number in the array is: 100

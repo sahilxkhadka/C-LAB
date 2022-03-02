@@ -23,3 +23,10 @@ int main (){
       <<"The product of floats = "<<floatProduct<<endl;
   return 0;
 }
+// Output 
+// Enter three integer values: 
+// 6 1 9
+// Integer function calledNow enter float values: 
+// 6.9 7.9 8.9
+// Float function calledThe product of integers = 54
+// The product of floats = 485.139
