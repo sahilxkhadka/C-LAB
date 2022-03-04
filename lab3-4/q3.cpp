@@ -1,3 +1,5 @@
+// Create a class for an account holder with data members as account_no, account_holder_name and balance. Create two methods to store and retrieve these values of 3 customers. 
+
 #include<iostream>
 using namespace std;
 

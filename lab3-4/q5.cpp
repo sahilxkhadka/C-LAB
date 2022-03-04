@@ -1,10 +1,10 @@
+// Create a constructor to initiate any private data member. Later overload it to set different type of data member. Your program must also include a destructor. 
+
 #include<iostream>
 using namespace std;
 
 class Equation {
-  int a;
-  int b;
-  int c;
+  int a, b, c;
   public: 
     Equation() {
       a = 0;

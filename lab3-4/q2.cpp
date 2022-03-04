@@ -1,3 +1,5 @@
+//  Modify the program of question 1 to display only the names of the department heads. 
+
 #include<iostream>
 using namespace std;
 struct Pharma {

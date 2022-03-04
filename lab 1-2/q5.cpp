@@ -1,3 +1,5 @@
+// Write a program that inputs ‘n’ integers from the user. Then, create a function pointer to find the maximum value among these integers. The function definition itself should also use pointer for comparison.
+
 #include<iostream>
 using namespace std;
 

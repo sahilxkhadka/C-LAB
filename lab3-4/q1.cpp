@@ -1,3 +1,5 @@
+// Create a structure for a pharmaceutical company having three departments. Each department can have a maximum of 5 employees, out of which one is a department head. Input as well as display the information of the departments’ employees. [Use nested structure] 
+
 #include<iostream>
 using namespace std;
 struct Pharma {

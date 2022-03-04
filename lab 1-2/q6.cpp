@@ -1,3 +1,5 @@
+// Write a program to find the sum of 1 - (22/2!) + (32/3!) - (42/4!) + (52/5!) - ..... (n2/n!). [Use recursion for the factorial part].
+
 #include<iostream>
 #include<iomanip>
 #include<cmath>
@@ -19,6 +21,7 @@ int main (){
   cout<<"The result is: "<<setprecision(3)<<res;
   return 0;
 }
+
 
 // Output 
 // Enter the value of n upto which you want the series to be printed.

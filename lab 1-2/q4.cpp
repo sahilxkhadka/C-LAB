@@ -1,5 +1,6 @@
-#include<iostream>
+// Create a function that calculates the product of 3 numbers entered by the user, regardless of the number entered being integer or floating point. Print the result as output. 
 
+#include<iostream>
 using namespace std;
 
 int multiply(int x, int y, int z) {
