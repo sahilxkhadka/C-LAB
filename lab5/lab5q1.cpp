@@ -64,6 +64,7 @@ int main() {
 				case 5:
 					activeUser = 0;
 				default:
+					cout<<"Transaction not found in the menu"<<endl;
 					break;
 			} 
 		}while(activeUser == 1);
