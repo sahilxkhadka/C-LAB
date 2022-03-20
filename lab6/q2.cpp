@@ -1,3 +1,10 @@
+/* (2) Write a program to demonstrate the following scenario of hierarchical inheritance:
+
+                                   VEHICLE
+
+                            CAR     BOAT    AEROPLANE
+*/
+
 #include<iostream>
 using namespace std;
 
@@ -41,7 +48,7 @@ private:
 public:
     void setboatType()
     {
-        cout<<"Enter your boat's type (eg: Motorboat, Sailboat, Fishboat...) :";
+        cout<<"Enter your boat's type (eg: Motorboat, Sailboat, Fishboat...) : ";
         getline(cin>>ws,boatType);
     }
     void getboatType()
@@ -85,3 +92,29 @@ int main()
     obj3.getflightTime();
     return 0;
 }
+
+/* Output
+
+********************** Price of your vehicle **********************
+
+Enter the price of your vehicle (in Rs.) : 500000
+Your vehicle's price is Rs. 500000
+
+********************** Your car's brand **********************
+
+Enter your car's brand name (eg: BMW, Ferrari, Ford...) : BMW
+Your car's brand is BMW
+
+********************** Your boat's type **********************
+
+Enter your boat's type (eg: Motorboat, Sailboat, Fishboat...) : Fishboat
+Your boat type is Fishboat
+
+********************** Your plane's flight time **********************
+
+Enter your flight time (in hrs) : 6
+Your flight time is 6hr/s
+
+*/
+
+
