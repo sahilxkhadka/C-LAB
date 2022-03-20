@@ -7,19 +7,40 @@ int main (){
   int marks;
   cout<<"Enter the marks you obtained in c++";
   cin>>marks;
+  cout<<"I love you aruna forever and ever";
   cout<<"You have obtained: ";
-  if (marks <= 59)
-    cout<<"F";
-  else if (marks <= 69)
-    cout<<"D";
-  else if (marks <= 79)
-    cout<<"C";
-  else if (marks <= 89)
-    cout<<"B";
-  else if (marks <= 100)
-    cout<<"A";
-  else 
-    cout<<"Out of range!!!";
+  // if (marks <= 59)
+  //   cout<<"F";
+  // else if (marks <= 69)
+  //   cout<<"D";
+  // else if (marks <= 79)
+  //   cout<<"C";
+  // else if (marks <= 89)
+  //   cout<<"B";
+  // else if (marks <= 100)
+  //   cout<<"A";
+  // else 
+  //   cout<<"Out of range!!!";
+  switch(marks) {
+    case 59:
+      cout<<"F";
+      break;
+    case 69:
+      cout<<"D";
+      break;
+    case 79:
+      cout<<"C";
+      break;
+    case 89:
+      cout<<"89";
+      break;
+    case 100:
+      cout<<"A";
+      break;
+    default:
+      cout<<"Out of range";
+      break;
+  }
   return 0;
 }
 
