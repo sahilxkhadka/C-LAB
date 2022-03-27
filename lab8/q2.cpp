@@ -1,3 +1,8 @@
+/*Write a program for the following scenerio. Make use of Abstract Base Class.
+                        MEDIA
+                               
+            BOOK                   AUDIO TAPE
+*/
 #include<iostream>
 using namespace std;
 
