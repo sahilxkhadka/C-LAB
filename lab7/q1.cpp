@@ -1,32 +1,43 @@
 //Using a friend function, print the sum of private data members of two classes. 
 #include<iostream>
 using namespace std;
-
-class Result {
+class SecondYear;
+class FirstYear {
     private:
         float percentage;
-        static int count;
     public:
-        friend float calcTotal(Result, Result);
+        friend float calcTotal(FirstYear, SecondYear);
         void setPrecentage() {
-            count++;
             do {
-                cout<<"Enter the perecentage you obtained in year "<<count<<":"<<endl;
+                cout<<"Enter the perecentage you obtained in year "<<":"<<endl;
                 cin>>percentage;
             }while(percentage > 100.0);
         }
 };
-int Result :: count;
-float calcTotal(Result year1, Result year2) {
-    return ( year1.percentage + year2.percentage );
+class SecondYear {
+    private:
+        float percentage;
+    public:
+        friend float calcTotal(FirstYear, SecondYear);
+        void setPrecentage() {
+            do {
+                cout<<"Enter the perecentage you obtained in year "<<":"<<endl;
+                cin>>percentage;
+            }while(percentage > 100.0);
+        }
+};
+
+float calcTotal(FirstYear result1, SecondYear result2) {
+    return ( result1.percentage + result2.percentage );
 }
 
 
 int main (){
-    Result firstYear, secondYear;
-    firstYear.setPrecentage();
-    secondYear.setPrecentage();
-    cout<<"Total Percentage = "<<calcTotal(firstYear, secondYear)<<"%";
+    FirstYear resultFirst;
+    SecondYear resultSecond;
+    resultFirst.setPrecentage();
+    resultSecond.setPrecentage();
+    cout<<"Total Percentage = "<<calcTotal(resultFirst, resultSecond)<<"%";
     return 0;
 }
 
