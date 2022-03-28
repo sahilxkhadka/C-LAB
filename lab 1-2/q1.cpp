@@ -10,7 +10,7 @@ int main (){
     if (weight >= 50 && (age>18 && age < 24))
       cout<<"You are qualified for the job"<<endl;
     else if (exp > 4 && weight == 35) {
-      (age > 24) ? cout<<"You are qualified haii ta " : cout<<"Not qualified";
+      (age > 24) ? cout<<"You are qualified. " : cout<<"Not qualified";
     }
     else 
       cout<<"You are not qualified."<<endl;

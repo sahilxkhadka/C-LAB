@@ -17,7 +17,7 @@ class ElectronicDevice {
             cin>>manufacturedYear;
         }
         void getDate() {
-            cout<<endl<<"This  product was manufactured in the year "<<manufacturedYear<<endl;
+            cout<<endl<<"This product was manufactured in the year "<<manufacturedYear<<endl;
         }
 };
 class Printer : virtual public ElectronicDevice {
