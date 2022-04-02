@@ -9,7 +9,7 @@ class FirstYear {
         friend float calcTotal(FirstYear, SecondYear);
         void setPercentage() {
             do {
-                cout<<"Enter the perecentage you obtained in year "<<":"<<endl;
+                cout<<"Enter the perecentage you obtained in first year "<<":"<<endl;
                 cin>>percentage;
             }while(percentage > 100.0);
         }
@@ -21,7 +21,7 @@ class SecondYear {
         friend float calcTotal(FirstYear, SecondYear);
         void setPercentage() {
             do {
-                cout<<"Enter the perecentage you obtained in year "<<":"<<endl;
+                cout<<"Enter the perecentage you obtained in second year "<<":"<<endl;
                 cin>>percentage;
             }while(percentage > 100.0);
         }
@@ -42,8 +42,8 @@ int main (){
 }
 
 // Output: 
-// Enter the perecentage you obtained in year 1:
+// Enter the perecentage you obtained in first year:
 // 99.9
-// Enter the perecentage you obtained in year 2:
+// Enter the perecentage you obtained in second year:
 // 9.99
 // Total Percentage = 109.89%
