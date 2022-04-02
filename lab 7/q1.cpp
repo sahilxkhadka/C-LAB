@@ -7,7 +7,7 @@ class FirstYear {
         float percentage;
     public:
         friend float calcTotal(FirstYear, SecondYear);
-        void setPrecentage() {
+        void setPercentage() {
             do {
                 cout<<"Enter the perecentage you obtained in year "<<":"<<endl;
                 cin>>percentage;
