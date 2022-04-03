@@ -26,3 +26,6 @@ int main (){
     num3.display();
     return 0;
 }
+
+// output
+// The value of x = 1.8 

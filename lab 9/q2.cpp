@@ -28,3 +28,12 @@ int main (){
     sahil->display();
     return 0;
 }
+
+
+//output
+//Enter your first name:
+//sahil
+//Enter your second name:
+//khadka
+
+//Your full name is: sahil khadka
