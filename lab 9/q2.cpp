@@ -24,7 +24,7 @@ class Details {
 
 int main (){
     Details sahil;
-    sahil->setData();
+    sahil->setData();`
     sahil->display();
     return 0;
 }
