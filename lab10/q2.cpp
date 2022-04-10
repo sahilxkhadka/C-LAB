@@ -22,7 +22,6 @@ int main (){
     return 0;
 }
 
-/*
-The average value is 3
-The average value is 7.3
-*/
+
+// The average value is 3
+// The average value is 7.3

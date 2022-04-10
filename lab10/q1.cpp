@@ -23,17 +23,16 @@ int main (){
     getData<char>();
     return 0;
 }
-/*
-Enter two integer values:
--5
-+5
-The swapped values are 5 and -5
-Enter two float values:
-2.5
--5.2
-The swapped values are -5.2 and 2.5
-Enter two characters
-a
-b
-The swapped values are b and a
-*/
+
+// Enter two integer values:
+// -5
+// +5
+// The swapped values are 5 and -5
+// Enter two float values:
+// 2.5
+// -5.2
+// The swapped values are -5.2 and 2.5
+// Enter two characters
+// a
+// b
+// The swapped values are b and a
