@@ -1,4 +1,4 @@
-//Write a program to demonstrate a catch block which catches all exceptions. 
+//(1) Write a program to demonstrate a catch block which catches all exceptions. 
 #include<iostream>
 #include<cmath>
 using namespace std;

@@ -1,3 +1,4 @@
+//(2) Write a program to demonstrate a class template for any suitable situation of your choice.
 #include<iostream>
 using namespace std;
 template<class T>
@@ -20,3 +21,8 @@ int main (){
     avg2.display();
     return 0;
 }
+
+/*
+The average value is 3
+The average value is 7.3
+*/
