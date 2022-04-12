@@ -1,3 +1,4 @@
+// Create a function template to swap 2 values. Using its template function, swap 2 integer, floating point, and character values.
 #include<iostream>
 using namespace std;
 template<typename T>
@@ -22,3 +23,17 @@ int main (){
     getData<char>();
     return 0;
 }
+
+// Output 
+// Enter two integer values:
+// 1
+// 2
+// The swapped values are 2 and 1
+// Enter two float values:
+// 1.2
+// 2.4
+// The swapped values are 2.4 and 1.2
+// Enter two characters
+// a
+// b
+// The swapped values are b and a

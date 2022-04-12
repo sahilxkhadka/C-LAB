@@ -20,3 +20,6 @@ int main (){
     avg2.display();
     return 0;
 }
+// Output 
+// The average value is 3
+// The average value is 7.3
