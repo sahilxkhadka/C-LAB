@@ -1,4 +1,4 @@
-// Write a program using exception handling in which an object type is thrown. 
+//(2) Write a program using exception handling in which an object type is thrown.  
 #include<iostream>
 using namespace std;
 
@@ -40,8 +40,3 @@ int main (){
     }  
     return 0;
 }
-// Output 
-// Enter the value of numerator and denominator:
-// 5
-// 0
-// Cannot divide 5 by 0

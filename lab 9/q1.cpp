@@ -1,4 +1,4 @@
-//  Write a program that overloads the binary arithmetic '/' operator using a friend function.
+// (1) Write a program that overloads the binary arithmetic '/' operator using a friend function.
 #include<iostream>
 using namespace std;
 
