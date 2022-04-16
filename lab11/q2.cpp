@@ -5,21 +5,18 @@ using namespace std;
 class Divider {
     private:
         int numertaor, denominatior;
-        float result;
     public:
         void setData() {
             cout<<"Enter the value of numerator and denominator:"<<endl;
             cin>>numertaor>>denominatior;
         }
         bool calculate() {
-            result =  numertaor /(float) denominatior;
             if(denominatior)
                 return true;
-            else 
-                return false;
+            return false;
         }
         void display() {
-            cout<<"The value of divison = "<<result;
+            cout<<"The value of divison = "<<numertaor /(float) denominatior;
         }
         void displayError() {
             cout<<"Cannot divide "<<numertaor<<" by "<<denominatior<<endl;
@@ -40,3 +37,13 @@ int main (){
     }  
     return 0;
 }
+
+// Output 
+// Enter the value of numerator and denominator:
+// 5
+// 4
+// The value of divison = 1.25
+// Enter the value of numerator and denominator:
+// 6
+// 0
+// Cannot divide 6 by 0
