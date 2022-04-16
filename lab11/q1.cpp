@@ -14,7 +14,7 @@ int main (){
         num < 0 ? throw num : calcRoot(num);
     }
     catch (int x) {
-        cout<<"Cannot calculate the root of a negative number."<<endl;
+        cout<<"Cannot calculate the root of "<<x<<endl;
     }
     return 0;
 }
@@ -25,4 +25,4 @@ int main (){
 // The square root of 9 is 3
 // Enter the number whose square root is to be calculated:
 // -9
-// Cannot calculate the root of a negative number.
+// Cannot calculate the root of -9
