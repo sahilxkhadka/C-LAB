@@ -28,3 +28,8 @@ int main (){
     readFile.close();
     return 0;
 }
+
+// Output 
+// Enter the data you want to write into the file:
+// ghaam pani jado
+// ghaam jado

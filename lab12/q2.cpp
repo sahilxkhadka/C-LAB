@@ -34,3 +34,14 @@ int main (){
     rwFile.close();
     return 0;
 }
+
+// Output 
+// Enter your name:
+// sahil
+// Enter your age:
+// 20
+// Enter your name:
+// sandesh
+// Enter your age:
+// 60
+// Your name is sandesh and you are 60 years old.
