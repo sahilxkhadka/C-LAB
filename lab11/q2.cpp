@@ -4,22 +4,22 @@ using namespace std;
 
 class Divider {
     private:
-        int numertaor, denominatior;
+        int numerator, denominator;
     public:
         void setData() {
             cout<<"Enter the value of numerator and denominator:"<<endl;
-            cin>>numertaor>>denominatior;
+            cin>>numerator>>denominator;
         }
         bool calculate() {
-            if(denominatior)
+            if(denominator)
                 return true;
             return false;
         }
         void display() {
-            cout<<"The value of divison = "<<numertaor /(float) denominatior;
+            cout<<"The value of divison = "<<numerator /(float) denominator;
         }
         void displayError() {
-            cout<<"Cannot divide "<<numertaor<<" by "<<denominatior<<endl;
+            cout<<"Cannot divide "<<numerator<<" by "<<denominator<<endl;
         }
 };
 
